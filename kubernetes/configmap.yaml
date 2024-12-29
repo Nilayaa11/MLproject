@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-env-config
+data:
+  SERVER_NAME: "localhost"
+  APP_ENV: "production"
